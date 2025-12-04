@@ -1,0 +1,33 @@
+# .gitignore
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints
+
+# Системные файлы
+.DS_Store
+
+# Локальные настройки IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Secrets / env
+.env
+.env.local
+.env.*
+!.env.example
+
+# Docker
+.dockerignore
